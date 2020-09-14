@@ -14,11 +14,3 @@
 
 
 
-def speak_to_grandma(phrase)
-  if speak_to_grandma(phrase) == "I LOVE YOU GRANDMA!".upcase
-     "I LOVE YOU TOO PUMPKIN!"
-  elsif speak_to_grandma(phrase) == "WHAT DID YOU EAT TODAY?".upcase
-     "NO, NOT SINCE 1938!"
-  else
-     "HUH?! SPEAK UP, SONNY!"
-end
