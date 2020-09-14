@@ -17,9 +17,7 @@ def speak_to_grandma (phrase = "I LOVE YOU GRANDMA!")
 if phrase == "I LOVE YOU GRANDMA!"
    "I LOVE YOU TOO PUMPKIN!"
  elsif phrase == phrase.upcase
-   "I LOVE YOU TOO PUMPKIN!"
-elsif speak_to_grandma = "HELLO!"
    "NO, NOT SINCE 1938!"
-   
-
+elsif phrase == phrase.downcase
+   "HUH?! SPEAK UP, SONNY!"
 end
